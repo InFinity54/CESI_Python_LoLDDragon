@@ -14,4 +14,10 @@ Le projet nécessite quelques packages supplémentaires :
 pip install requests
 ```
 
+Dans certains cas, il peut être nécessaire d'installer une dépendance supplémentaire, qui est normalement intégrée à Python.
+
+```bash
+pip install tqdm
+```
+
 Une fois ces packages installés, il est nécessaire de se placer dans le dossier où se trouve les fichiers de l'application, puis de lancer la commande suivante : `python main.py`.

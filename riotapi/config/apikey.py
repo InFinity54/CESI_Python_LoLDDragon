@@ -1,6 +1,6 @@
 import os
-from lolddragon.assets.colors.fore import ForeColor
-from lolddragon.assets.font import FontStyle
+from assets.colors.fore import ForeColor
+from assets.font import FontStyle
 
 
 # Retourne la clé à utiliser pour utiliser les API de Riot Games, depuis le fichier de configuration dédié

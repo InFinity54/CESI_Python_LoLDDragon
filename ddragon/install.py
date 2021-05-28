@@ -1,9 +1,9 @@
-from lolddragon.system.console import clear_console
-from lolddragon.assets.colors.fore import ForeColor
-from lolddragon.assets.font import FontStyle
-from lolddragon.ddragon.common import *
-from lolddragon.riotapi.lol.ddragonext import get_ddragon_file_extension
-from lolddragon.riotapi.lol.versions import get_game_versions_list
+from system.console import clear_console
+from assets.colors.fore import ForeColor
+from assets.font import FontStyle
+from ddragon.common import *
+from riotapi.lol.ddragonext import get_ddragon_file_extension
+from riotapi.lol.versions import get_game_versions_list
 import os
 from subprocess import call
 

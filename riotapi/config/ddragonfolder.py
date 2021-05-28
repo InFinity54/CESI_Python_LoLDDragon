@@ -1,6 +1,6 @@
 import os
-from lolddragon.assets.colors.fore import ForeColor
-from lolddragon.assets.font import FontStyle
+from assets.colors.fore import ForeColor
+from assets.font import FontStyle
 
 
 # Retourne le chemin d'accès vers le dossier du Data Dragon, depuis le fichier de configuration dédié

@@ -1,14 +1,14 @@
-from lolddragon.assets.colors.fore import ForeColor
-from lolddragon.assets.font import FontStyle
-from lolddragon.ddragon.install import fresh_ddragon_install_all, fresh_ddragon_install_latest
-from lolddragon.ddragon.update import update_ddragon
-from lolddragon.ddragon.versions import get_installed_ddragon_version, is_ddragon_needs_update
-from lolddragon.riotapi.config.apikey import get_riot_api_key
-from lolddragon.riotapi.config.ddragonfolder import get_ddragon_folder
-from lolddragon.riotapi.lol.versions import get_latest_game_version
+from assets.colors.fore import ForeColor
+from assets.font import FontStyle
+from ddragon.install import fresh_ddragon_install_all, fresh_ddragon_install_latest
+from ddragon.update import update_ddragon
+from ddragon.versions import get_installed_ddragon_version, is_ddragon_needs_update
+from riotapi.config.apikey import get_riot_api_key
+from riotapi.config.ddragonfolder import get_ddragon_folder
+from riotapi.lol.versions import get_latest_game_version
 
 # Récupération de la clé d'API Riot
-from lolddragon.system.console import clear_console
+from system.console import clear_console
 
 riot_apikey = get_riot_api_key()
 if riot_apikey is not False:

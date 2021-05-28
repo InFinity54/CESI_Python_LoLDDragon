@@ -1,4 +1,4 @@
-from lolddragon.riotapi.lol.ddragonext import get_ddragon_file_extension
+from riotapi.lol.ddragonext import get_ddragon_file_extension
 import requests
 import os
 import shutil
